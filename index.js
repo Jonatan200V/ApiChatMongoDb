@@ -3,8 +3,10 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const socket = require('socket.io');
 
-const { PORT, MONGO_URI } = process.env;
-const PUERTO = PORT || 4000;
+// const { PORT, MONGO_URI } = process.env;
+const MONGO_URI =
+  'mongodb+srv://JonatanValdiviezo:43486277Mb@cluster0.n8469sx.mongodb.net/jonatan?retryWrites=true&w=majority';
+const PUERTO = process.env.PORT || 4000;
 const main = async () => {
   try {
     mongoose.connect(MONGO_URI, {
