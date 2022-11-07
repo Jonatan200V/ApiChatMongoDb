@@ -17,7 +17,7 @@ const main = async () => {
     const io = socket(server, {
       cors: {
         origin:
-          'https://63690afa26363238445dac91--merry-caramel-4aa6e0.netlify.app/',
+          'https://636910083eb08e3fa31dd8c3--sparkling-pudding-40f105.netlify.app',
         credentials: true,
       },
     });
