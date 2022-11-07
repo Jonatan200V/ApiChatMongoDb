@@ -32,8 +32,6 @@ const main = async () => {
         }
       });
     });
-
-    console.log(`Server started on PORT ${PORT} DB connection successfull `);
   } catch (error) {
     return console.log(`ERROR db app.js ${error.message}`);
   }
