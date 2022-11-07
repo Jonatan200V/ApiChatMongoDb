@@ -16,7 +16,8 @@ const main = async () => {
     const server = app.listen(PUERTO);
     const io = socket(server, {
       cors: {
-        origin: 'http://localhost:3000',
+        origin:
+          'https://63690afa26363238445dac91--merry-caramel-4aa6e0.netlify.app/',
         credentials: true,
       },
     });
